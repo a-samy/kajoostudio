@@ -1,0 +1,12 @@
+@font-face {
+    font-family: 'Janna LT';
+    src: url('JannaLT-Bold.eot');
+    src: url('JannaLT-Bold.eot?#iefix') format('embedded-opentype'),
+        url('JannaLT-Bold.woff2') format('woff2'),
+        url('JannaLT-Bold.woff') format('woff'),
+        url('JannaLT-Bold.ttf') format('truetype'),
+        url('JannaLT-Bold.svg#JannaLT-Bold') format('svg');
+    font-weight: bold;
+    font-style: normal;
+}
+

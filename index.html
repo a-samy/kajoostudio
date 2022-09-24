@@ -1,0 +1,335 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+<meta charset="UTF-8" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<title>Kajoo</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="Kajoo" />
+<meta name="keywords" content="Kajoo, Kajoo" />
+<meta name="author" content="Kajoo Studio" />
+<link rel="shortcut icon" href="img/favicon.ico">
+		<!--bootstrap-->
+<link rel="stylesheet" href="lib/bootstrap/bootstrap.min.css">
+<link href="css/style.css" rel="stylesheet" type="text/css">
+<script src="js/parallax.js"></script> 
+<script type="text/javascript">
+function MM_swapImgRestore() { //v3.0
+  var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
+}
+function MM_preloadImages() { //v3.0
+  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+}
+
+function MM_findObj(n, d) { //v4.01
+  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+  if(!x && d.getElementById) x=d.getElementById(n); return x;
+}
+
+function MM_swapImage() { //v3.0
+  var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
+   if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
+}
+</script>
+</head>
+<body onLoad="MM_preloadImages('img/doorGif.gif','img/telephone4.gif','img/catGif.gif','img/wantedPoster.gif')">
+<div class="se-pre-con"></div>
+<div class="container">
+  <div class="content desktop-v"> 
+    <!--motion bg-->
+    
+    <ul id="scene">
+      <li class="layer" data-depth=".3">
+        <div class="logo"> <img src="img/KajooLogo.gif"> </div>
+      </li>
+      <li class="layer" data-depth=".8">
+        <div class="backbuilding"> <img src="img/backBuildings.png"> </div>
+      </li>
+      <li class="layer" data-depth=".5">
+        <div class="tree"> <img src="img/tree.png"> </div>
+      </li>
+      <li class="layer" data-depth="0">
+        <div class="wall"> <img src="img/fence.png"> </div>
+      </li>
+    </ul>
+    <ul id="scene2">
+      <li class="layer" data-depth=".6">
+        <div class="menu">
+			<a href="aboutus.html" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image12','','img/catGif.gif',1)"><img src="img/aboutBtn.png" alt=""/></a>
+			<a href="gallery.html" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image10','','img/doorGif.gif',1)"><img src="img/gallaryBtn.png" alt=""/></a>
+			<a href="contact.html" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('tele','','img/telephone4.gif',1)"><img src="img/ContactBtn.png" alt=""/></a>
+			<a href="vacancies.html" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image13','','img/wantedPoster.gif',1)"><img src="img/vacanciesBtn.png" alt=""/></a>
+		  </div>
+      </li>
+    </ul>
+    <div class="building"> <img src="img/buildings-layer-1.png"> </div>
+    <div class="motions">
+      <div class="door"> <a href="gallery.html" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image10','','img/doorGif.gif',1)"> <img id="Image10" src="img/doorGif.png" alt=""></a> </div>
+      <div class="telephone"> <a href="contact.html" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('tele','','img/telephone4.gif',1)"> <img id="tele" src="img/telephone4.png" alt=""></a> </div>
+      <div class="cat"> <a href="aboutus.html" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image12','','img/catGif.gif',1)"> <img id="Image12" src="img/catGif.png" alt=""></a> </div>
+      <div class="newspaper"> <a href="vacancies.html" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image13','','img/wantedPoster.gif',1)"> <img id="Image13" src="img/wantedPoster.png" alt=""></a> </div>
+    </div>
+  </div>
+	<div class="home-tree mobile-v" id="home-sc">
+<nav class="top-nav-home">
+  <button class="navbar-toggler" type="button">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse nav-home">
+	  <button class="navbar-close" type="button">
+  </button>
+    <ul class="navbar-nav2">
+      <li class="nav-item active">
+        <a class="nav-link" href="#home-sc">Home </a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#about-sc">About us</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#gallery-sc">Gallery</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#vacencies-sc">Vacancies</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#contact-sc">Contact</a>
+      </li>
+    </ul>
+  </div>
+</nav>
+		
+  <a class="home-logo" href="#"><img src="img/logo-mobile.png"></a>
+	</div>
+  <div class="mobile-v">
+    <div class="about-home" id="about-sc">
+      <h1> About Us</h1>
+     <p> Award winning animation studio based in Egypt, we provide a wide range of high quality animation
+		products: </p>
+      <ul>
+        <li>- Animated Series.</li>
+        <li>- Animated movies.</li>
+        <li>- TV / YouTube commercials.</li>
+        <li>- Title Sequences.</li>
+		 <li>- motion explainers.</li> 
+        <li>and more....</li>
+      </ul>
+    </div>
+    <div class="work-home" id="gallery-sc">
+      <h1> Our Work<br>
+        Gallery</h1>
+      <div class="gallery-home">
+        <div id="carouselExampleIndicators" class="carousel slide carousel-fade" data-ride="carousel" data-interval="false">
+          <div class="carousel-tv "></div>
+          <ol class="carousel-indicators">
+            <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="4"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="5"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="6"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="7"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="8"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="9"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="10"></li>
+          </ol>
+ <div class="carousel-inner">
+	  
+	<div class="carousel-item active">
+		
+		<iframe class="youtube-iframe" width="100%" height="287" src="https://www.youtube.com/embed/hMEaly4xZ7s" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+    </div>
+	<div class="carousel-item">
+		
+		<iframe class="youtube-iframe" width="100%" height="287" src="https://www.youtube.com/embed/otKSUSnSvLU" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+	</div>
+  
+	<div class="carousel-item">
+		
+		<iframe class="youtube-iframe" width="100%" height="287" src="https://www.youtube.com/embed/A5Asai2zVu0" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+    </div>
+	<div class="carousel-item">
+		
+		<iframe class="youtube-iframe" width="100%" height="287" src="https://www.youtube.com/embed/l6wY3LMPpJA" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+    </div>
+	<div class="carousel-item">
+
+		<iframe class="youtube-iframe" width="100%" height="287" src="https://www.youtube.com/embed/qKPrzLs7HqA" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+    </div>
+	  <div class="carousel-item">
+
+		<iframe class="youtube-iframe" width="100%" height="287" src="https://www.youtube.com/embed/VJbGIk2UMp0" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+    </div>
+	<div class="carousel-item">
+		
+		<iframe class="youtube-iframe" width="100%" height="287" src="https://www.youtube.com/embed/xT7lH8l_5Kg" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+    </div>
+
+    <div class="carousel-item">
+		
+		<iframe class="youtube-iframe" width="100%" height="287" src="https://www.youtube.com/embed/ycAhI8SeV6o" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+    </div>
+
+
+     <div class="carousel-item">
+		
+		<iframe class="youtube-iframe" width="100%" height="287" src="https://www.youtube.com/embed/3XALz6r3dxk" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+    </div>
+	<div class="carousel-item">
+		
+		<iframe class="youtube-iframe" width="100%" height="287" src="https://www.youtube.com/embed/l6A1kOKRt-A" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+    </div>
+	  
+    <div class="carousel-item">
+		
+		<iframe class="youtube-iframe" width="100%" height="287" src="https://www.youtube.com/embed/ps_-D6ETsDw" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+    </div>
+	
+
+  </div>
+          <a class="carousel-control-prev btn-control" href="#carouselExampleIndicators" role="button" data-slide="prev"> <span class="carousel-control-prev-icon" aria-hidden="true"></span> <span class="arrow-title">Previous</span> </a> <a class="carousel-control-next btn-control" href="#carouselExampleIndicators" role="button" data-slide="next"> <span class="arrow-title">Next</span> <span class="carousel-control-next-icon" aria-hidden="true"></span> </a> </div>
+      </div>
+    </div>
+	  <div class="vacencies-home" id="vacencies-sc">
+	  <h1>Vacancies</h1>
+		  <h6>-Hiring soon.</h6>
+	  </div>
+	  
+	  <div class="contact-home" id="contact-sc">
+	  <h1>Say Helleowww!</h1>
+		  <div class="text-contact">
+		<div class="row">
+			<a href="mailto:info@kajoostudio.com"><img src="img/mail.png" alt=""/> info@kajoostudio.com</a></div>
+		<div class="row"><img src="img/phone.png" alt=""/> (+20) 12 0847 6095</div>
+		<div class="row"><img src="img/phone.png" alt=""/> (+20) 11 2451 3583</div>
+	  </div>
+		<div class="contact-icons"> 
+			<a href="https://www.google.com/maps/place/52+Mossadak,+Ad+Doqi,+Dokki,+Giza+Governorate/@30.039126,31.2023578,17z/data=!3m1!4b1!4m5!3m4!1s0x145846cd77045cff:0x91e6cc949a4d4a42!8m2!3d30.039126!4d31.2045465?shorturl=1" target="_blank">
+			<img src="img/map.png" class="map"></a>
+			<a href="https://www.behance.net/Kajoostudio_" target="_blank">
+				<img src="img/behance.png" class="behance">
+			</a>
+			<a href="https://www.linkedin.com/company/kajoo-studio" target="_blank">
+				<img src="img/linkedin.png" class="linkdin"></a>
+			<a href="https://www.youtube.com/channel/UCgqGxlouMeiUFn2jCMnM4jA/featured" target="_blank">
+				<img src="img/youtube.png" class="youtube"></a>
+			<a href="https://vimeo.com/user93740706" target="_blank">
+				<img src="img/vimeo.png" class="vimeo"></a>
+			<a href="https://www.facebook.com/Kajoostudio" target="_blank">
+				<img src="img/facebook.png" class="facebook"></a>
+			<a href="https://www.instagram.com/kajoostudio/" target="_blank">
+				<img src="img/instagram.png" class="insta"></a>
+		</div>
+	  </div>
+  </div>
+</div>
+<footer class="footer-home">Copy Right © 2019   Kajoo Studio   All Rights Reserved </footer>
+
+<!--bottstrap--> 
+<script src="lib/bootstrap/jquery-3.2.1.slim.min.js"></script> 
+<script src="lib/bootstrap/popper.min.js"></script> 
+<script src="lib/bootstrap/bootstrap.min.js"></script> 
+
+<!--slider--> 
+<script src="js/jquery-2.min.js"></script> 
+<script>
+		var scene = document.getElementById('scene');
+		var parallax = new Parallax(scene);
+		var scene = document.getElementById('scene2');
+		var parallax = new Parallax(scene2);
+		var scene = document.getElementById('scene3');
+		var parallax = new Parallax(scene3);
+	</script> 
+<!--white bg--> 
+
+<!--preloader--> 
+<script>
+	//paste this code under head tag or in a seperate js file.
+	// Wait for window load
+	$(window).load(function() {
+		// Animate loader off screen
+		$(".se-pre-con").fadeOut("slow");;
+	});
+</script> 
+<!--video--> 
+<script type="text/javascript">
+
+    jQuery(".btn-control").click(function() {
+      // changes the iframe src to prevent playback or stop the video playback in our case
+      $('.youtube-iframe').each(function(index) {
+        $(this).attr('src', $(this).attr('src'));
+        return true;
+      });
+      
+//click function
+    });
+
+</script>
+	
+<!--nav--> 
+<script>
+		$('.navbar-toggler').click( function() {
+		$(".navbar-collapse").addClass("show");
+		$(".navbar-collapse").removeClass("hide");
+
+} );
+</script> 
+<script>
+		$('.nav-link').click( function() {
+		$(".navbar-collapse").addClass("hide");
+		$(".navbar-collapse").removeClass("show");
+
+} );
+</script> 
+<script>
+		$('.navbar-close').click( function() {
+		$(".navbar-collapse").addClass("hide");
+		$(".navbar-collapse").removeClass("show");
+
+} );
+		</script> 
+
+<script>
+$(document).ready(function(){
+  // Add smooth scrolling to all links
+  $("a").on('click', function(event) {
+
+    // Make sure this.hash has a value before overriding default behavior
+    if (this.hash !== "") {
+      // Prevent default anchor click behavior
+      event.preventDefault();
+
+      // Store hash
+      var hash = this.hash;
+
+      // Using jQuery's animate() method to add smooth page scroll
+      // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
+      $('html, body').animate({
+        scrollTop: $(hash).offset().top
+      }, 800, function(){
+   
+        // Add hash (#) to URL when done scrolling (default click behavior)
+        window.location.hash = hash;
+      });
+    } // End if
+  });
+});
+</script>
+
+</body>
+</html>
